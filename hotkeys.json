@@ -1,0 +1,49 @@
+[
+	{
+		"keybinding":"/ssh",
+		"phrase":"ssh joeytyndale@104.32.3.205",
+		"execute":false
+	},
+	{
+		"keybinding":"/sincere",
+		"phrase":"I sincerely apologize for the inconvenience that this is causing.",
+		"execute": false
+	},
+	{
+		"keybinding":"/blank",
+		"phrase":"Hi ,\nThank you for contacting LinkedIn Learning.\n\nPlease let me know if I can be of any further assistance.\n\nBest Regards,\n\nJoseph\nLinkedIn Learning Support Specialist",
+		"execute": false
+	},
+	{
+		"keybinding":"/unbind",
+		"phrase":"Hi $contacts.name.first,\n\nThank you for contacting LinkedIn Learning.\n\nYour request has been received and escalated to our Technical Support team. I'll let you know as soon as your Learning and LinkedIn profiles are disconnected.\n\nPlease let us know if we may be of assistance in the meantime.\n\nBest regards, \n\n$incidents.assigned.acct_id\nLinkedIn Learning Support Specialist",
+		"execute":false
+	},
+	{
+        "keybinding":"/lil",
+		"phrase":"https://www.linkedin.com/learning",
+		"execute":true
+	},
+	{
+        "keybinding":"/logout",
+		"phrase":"https://www.linkedin.com/m/logout",
+		"execute":true
+	},
+	{
+		"keybinding":"/gcn",
+		"phrase":"Hi $contacts.name.first,\n\nThank you for contacting LinkedIn Learning.\n\nIt looks like you have actually encountered a known issue. I'm very sorry for the inconvenience. Our Engineering teams are working on it, but there's no estimate as to how long that might take.\n\nWe'll do our best to keep you posted. In the meantime, I'll gladly help if you have any other questions!\n\nBest regards,\n\n$incidents.assigned.acct_id\nLinkedIn Learning Support Specialist",
+		"execute":false
+	},
+	{
+		"keybinding":"/sig",
+		"phrase":"Best regards,\n\n$incidents.assigned.acct_id\nLinkedIn Learning Support Specialist",
+		"execute":false
+	},
+	{
+		"keybinding":"/har",
+		"phrase":"https://www.linkedin.com/help/linkedin/answer/94794",
+		"execute":false
+	}
+	
+]
+
